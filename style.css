@@ -1,0 +1,56 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+header {
+	background-color: #aaa;
+	padding: 5px;
+	color: white;
+}
+article {
+	padding: 5px;
+}
+form label {
+	width: 80px;
+	display: inline-block;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: #888;
+}
+table td, th {
+	padding: 5px;
+	background-color: #ddd;
+}
+table th {
+	background-color: #ccc;
+	text-align: left;
+}
+section {
+	display: inline-block;
+	vertical-align: top;
+	background-color: #eee;
+	padding: 5px;
+}
+section#modify {
+	width: 400px;
+}
+section#browse {
+	width: 800px;
+}
+section h2 {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: lowercase;
+	color: #888;
+	display: block;
+	margin-bottom: 5px;
+}
+section em {
+	font-size: 10px;
+	font-weight: bold;
+	color: #aaa;
+}
